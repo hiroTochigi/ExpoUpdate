@@ -117,6 +117,12 @@ export function UpdatesApiDemoScreen() {
         updateCheckInterval={checkIntervalFromSettings(settings)}
         buttonsAlwaysVisible={__DEV__}
       />
+      <Text
+          testID="welcome-heading"
+          style={$topHeadingText}
+          text="Automatic update test 2"
+          preset="subheading"
+        />
       {isChecking || isDownloading ? (
         <ActivityIndicator
           style={$activityIndicator}

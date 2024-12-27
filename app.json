@@ -15,7 +15,8 @@
     "updates": {
       "requestHeaders": {
         "expo-channel-name": "main"
-      }
+      },
+      "url": "https://u.expo.dev/a3cd8299-57f8-44b4-9ae7-0548097a2432"
     },
     "jsEngine": "hermes",
     "android": {
@@ -43,12 +44,16 @@
       }
     },
     "extra": {
-      "criticalIndex": 0,
-      "message": "",
+      "criticalIndex": 1,
+      "message": "Automatic update",
       "updates": {
         "assetPatternsToBeBundled": [
+          "app/includedImages/*",
           "app/includedImages/*"
         ]
+      },
+      "eas": {
+        "projectId": "a3cd8299-57f8-44b4-9ae7-0548097a2432"
       }
     },
     "plugins": [
@@ -58,6 +63,7 @@
     ],
     "experiments": {
       "tsconfigPaths": true
-    }
+    },
+    "owner": "hterauchi"
   }
 }
